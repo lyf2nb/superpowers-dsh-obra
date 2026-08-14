@@ -45,6 +45,21 @@ tool.
   Every `dsh ...` example below works identically as
   `npx @deepseek-ai/dsh ...`.
 
+### Easiest: let the DeepSeek Harness agent install it
+
+Open the DeepSeek Harness web UI, start a new conversation, and send this
+message:
+
+```
+Please install the plugin from this link: https://github.com/LayneChai/superpowers-dsh
+```
+
+The agent will run the install for you (`dsh plugin --profile web add` →
+restart the profile → verify the skills registered), so you never have to
+type a command. Afterwards you can ask it to run
+`dsh --profile web --dump-config` and confirm a `superpowers-dsh` row is
+present.
+
 ### Install from npm (recommended — one command)
 
 The package is published on npm as `superpowers-dsh` (synced to the

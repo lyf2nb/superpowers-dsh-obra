@@ -41,6 +41,18 @@ host 技能注册表，你 profile 里的每个 agent 会话都能在技能目�
 
   下文所有 `dsh ...` 示例都可以等价写成 `npx @deepseek-ai/dsh ...`。
 
+### 最推荐：直接让 DeepSeek Harness 帮你安装
+
+打开 DeepSeek Harness（Web 界面），新建对话，把下面这句话发给它：
+
+```
+帮我安装这个链接里边的插件：https://github.com/LayneChai/superpowers-dsh
+```
+
+Agent 会自动完成安装（`dsh plugin --profile web add` → 重启 profile →
+验证技能注册），无需你手动敲任何命令。装完后你可以在对话里让它运行
+`dsh --profile web --dump-config`，确认输出里有 `superpowers-dsh` 行。
+
 ### 从 npm 安装（推荐，一条命令）
 
 包已发布到 npm，名为 `superpowers-dsh`（国内会自动同步到 npmmirror 镜像）：
