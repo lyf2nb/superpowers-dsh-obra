@@ -20,10 +20,24 @@ tool.
 
 ### Prerequisites
 
-- DeepSeek Harness with the `dsh` CLI on your `PATH` (you can already run
-  `dsh web`)
-- **pnpm** — the `dsh plugin` command forwards to pnpm (`pnpm --version` to
-  check; install from https://pnpm.io if missing)
+- DeepSeek Harness, plus **pnpm** — the `dsh plugin` command forwards to pnpm
+  (`pnpm --version` to check; install from https://pnpm.io if missing)
+- The `dsh` CLI. It ships with the Harness and is normally started as
+  `npx @deepseek-ai/dsh web`, so it is only on `PATH` inside that process
+  tree. Either make it permanent, or use the `npx` form of every command
+  below:
+
+  ```sh
+  # make `dsh` permanently available (recommended):
+  npm install -g @deepseek-ai/dsh
+  dsh --version
+
+  # or skip the install and run everything through npx:
+  npx @deepseek-ai/dsh --version
+  ```
+
+  Every `dsh ...` example below works identically as
+  `npx @deepseek-ai/dsh ...`.
 
 ### Install from GitHub (recommended)
 
@@ -51,8 +65,8 @@ dsh plugin --profile web add C:\path\to\superpowers-dsh
 ### Restart and verify
 
 The bundle layer mounts at profile startup, so **restart the profile** (stop
-and re-run `dsh web`, then refresh the browser). To confirm the layer is
-composed:
+and re-run `dsh web` / `npx @deepseek-ai/dsh web`, then refresh the browser).
+To confirm the layer is composed:
 
 ```sh
 dsh --profile web --dump-config     # a `superpowers-dsh` row must be present
