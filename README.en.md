@@ -103,6 +103,10 @@ dsh --profile web --dump-config     # a `superpowers-dsh` row must be present
 The skills then appear in the agent skill catalog (`using-superpowers` is the
 entry-point skill) and are loadable with the `skill` tool.
 
+A successful install looks like this:
+
+![Installation success screenshot](static/install-success.png)
+
 ### Using another profile (headless / tui / custom)
 
 Point `--profile` at whichever profile you run:

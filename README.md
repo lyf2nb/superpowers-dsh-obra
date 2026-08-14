@@ -94,6 +94,10 @@ dsh --profile web --dump-config     # 必须出现 `superpowers-dsh` 行
 之后技能会出现在 agent 技能目录中（`using-superpowers` 是入口技能），
 可以用 `skill` 工具加载。
 
+安装成功后的界面如下：
+
+![安装成功截图](static/install-success.png)
+
 ### 在其他 profile（headless / tui / 自定义）中使用
 
 把 `--profile` 指向你实际运行的 profile：
