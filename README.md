@@ -39,17 +39,20 @@ tool.
   Every `dsh ...` example below works identically as
   `npx @deepseek-ai/dsh ...`.
 
-### Install from GitHub (recommended)
+### Install from npm (recommended — one command)
+
+The package is published on npm as `superpowers-dsh` (synced to the
+npmmirror mirror for mainland China):
+
+```sh
+dsh plugin --profile web add superpowers-dsh
+```
+
+### Install from GitHub
 
 ```sh
 # from anywhere
 dsh plugin --profile web add https://github.com/LayneChai/superpowers-dsh.git
-```
-
-### Install from npm
-
-```sh
-dsh plugin --profile web add superpowers-dsh
 ```
 
 ### Install from a tarball or a local folder
