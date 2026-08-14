@@ -48,6 +48,10 @@ npmmirror mirror for mainland China):
 dsh plugin --profile web add superpowers-dsh
 ```
 
+> Use the `dsh plugin` form — a plain `npm install superpowers-dsh` installs
+> the package as a library in the current directory but does **not** register
+> it into any DeepSeek Harness profile, so the skills would never load.
+
 ### Install from GitHub
 
 ```sh
