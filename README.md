@@ -28,8 +28,8 @@ tool.
 ### Install from GitHub (recommended)
 
 ```sh
-# from anywhere; <owner> is the GitHub account hosting this repository
-dsh plugin --profile web add https://github.com/<owner>/superpowers-dsh.git
+# from anywhere
+dsh plugin --profile web add https://github.com/LayneChai/superpowers-dsh.git
 ```
 
 ### Install from npm
