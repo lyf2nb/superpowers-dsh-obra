@@ -4,6 +4,12 @@
 
 </div>
 
+<div align="center">
+
+![superpowers-dsh](static/home.png)
+
+</div>
+
 # superpowers-dsh
 
 Superpowers for the **DeepSeek Harness**: a plugin bundle that ports the core

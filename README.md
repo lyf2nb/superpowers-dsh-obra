@@ -4,6 +4,12 @@
 
 </div>
 
+<div align="center">
+
+![superpowers-dsh](static/home.png)
+
+</div>
+
 # superpowers-dsh
 
 为 **DeepSeek Harness (DSH)** 打造的 Superpowers 插件包：把
