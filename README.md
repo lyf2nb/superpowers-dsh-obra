@@ -47,6 +47,16 @@ host 技能注册表，你 profile 里的每个 agent 会话都能在技能目�
 
   下文所有 `dsh ...` 示例都可以等价写成 `npx @deepseek-ai/dsh ...`。
 
+### 最简单：一条命令
+
+不需要先全局安装 `dsh`，在任意目录执行：
+
+```sh
+npx @deepseek-ai/dsh plugin --profile web add github:LayneChai/superpowers-dsh
+```
+
+装完后重启 `npx @deepseek-ai/dsh web`（或 `dsh web`），刷新浏览器即可。
+
 ### 最推荐：直接让 DeepSeek Harness 帮你安装
 
 打开 DeepSeek Harness（Web 界面），新建对话，把下面这句话发给它：

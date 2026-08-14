@@ -51,6 +51,16 @@ tool.
   Every `dsh ...` example below works identically as
   `npx @deepseek-ai/dsh ...`.
 
+### Simplest: one command
+
+No global `dsh` install required. Run this from any directory:
+
+```sh
+npx @deepseek-ai/dsh plugin --profile web add github:LayneChai/superpowers-dsh
+```
+
+Then restart `npx @deepseek-ai/dsh web` (or `dsh web`) and refresh the browser.
+
 ### Easiest: let the DeepSeek Harness agent install it
 
 Open the DeepSeek Harness web UI, start a new conversation, and send this
