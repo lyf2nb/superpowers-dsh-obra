@@ -1,0 +1,31 @@
+{
+  "name": "superpowers-dsh",
+  "description": "Superpowers for the DeepSeek Harness: TDD, debugging, planning, and collaboration skills adapted from obra/superpowers",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "skills",
+    "superpowers"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
