@@ -31,7 +31,14 @@ Agent 会自动完成安装（`dsh plugin --profile web add` → 重启 profile 
 
 ```sh
 dsh plugin --profile web remove superpowers-dsh-obra
+
+或者尝试
+
+npx @deepseek-ai/dsh plugin --profile web remove superpowers-dsh
+
 # 卸载后同样需要重启 profile
+
+
 ```
 
 ## 技能列表
